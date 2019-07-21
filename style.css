@@ -1,0 +1,218 @@
+@import url('https://fonts.googleapis.com/css?family=Lato:400,700');
+
+body {
+  overflow-x: hidden;
+  font-family: 'Lato' , sans serif;
+  color: #505962;
+}
+
+.offset:before {
+	display: block;
+	content: "";
+	height: 4rem;
+	margin-top: -4rem;
+}
+
+/*--- Navigation --*/
+
+.navbar {
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: .9rem;
+  letter-spacing: .1rem;
+  background: #223047 !important;
+}
+.navbar-brand img {
+  height: 2rem;
+}
+.navbar-nav li {
+  padding-right: 0.7rem;
+}
+.navbar-dark .navbar-nav .nav-link {
+  color: white;
+  padding-top:0.8rem;
+}
+.navbar-dark .navbar-nav .navbar-link.active,
+.navbar-dark .navbar-nav .navbar:hover {
+  color: #223047;
+}
+
+/*--- Button Styles --*/
+
+.btn-lg {
+  background-color: #00fff1;
+  border: none;
+  color: #223047;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+.btn-md {
+  background-color: #223047;
+  border: 1px 
+  border-color: white;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+.btn-drp {
+  background-color: #00fff1;
+  border: none; 
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  box-shadow: 0 10px 10px -5px #00fff1;
+  padding bottom: 1rem;
+}
+
+/*--- Features Section --*/
+
+.narrow {
+	width: 75%;
+	margin: 1.5rem auto;
+	padding-top: 2rem;
+}
+
+.narrow h2{
+	font-size: 1.5rem;
+}
+
+/*--- Services Section --*/
+
+.jumbotron {
+	margin-bottom: 0;
+	padding: 2rem 0 3.5rem;
+	border-radius: 0;
+}
+h3.heading {
+	font-size: 1.9rem;
+	font-weight: 700;
+	margin-bottom: 1.8rem;
+}
+.heading-underline {
+	width: 3rem;
+	height: 0.2rem;
+	background-color: #00fff1;
+	margin: 0 auto;
+}
+
+/*--- Landing Page --*/
+
+.home-inner {
+  background-color: #223047;
+}
+
+.caption {
+  width: 100%;
+  max-width: 100%;
+  position: absolute;
+  top: 38%;
+  z-index: 1;
+  color: white;
+}
+
+.caption h1 {
+  font-size: 2.8rem;
+  font-weight: 700;
+  letter-spacing: 0.1rem;
+  text-shadow: .1rem 0.1rem .8rem black;
+  padding bottom: 1rem;
+}
+
+.caption h2 {
+  font-size: 1.5rem;
+  font-weight: 1400;
+  letter-spacing: 0.1rem;
+  text-shadow: .1rem 0.1rem .8rem black;
+  padding bottom: 1rem;
+}
+
+.caption h3 { 
+  font-size: 0.5rem;
+  text-shadow: .1rem 0.1rem .5rem black;
+  padding bottom: 2rem;
+}
+
+.parent {
+  position: relative;
+  top: 0;
+  left: 0;
+}
+.image1 {
+  position: relative;
+  top: 0;
+  left: 0;
+}
+.image2 {
+  position: absolute;
+  top: 30px;
+  left: 70px;
+
+/*---Social --*/
+
+.social:hover {
+     -webkit-transform: scale(1.1);
+     -moz-transform: scale(1.1);
+     -o-transform: scale(1.1);
+ }
+ .social {
+     -webkit-transform: scale(0.8);
+     /* Browser Variations: */
+     
+     -moz-transform: scale(0.8);
+     -o-transform: scale(0.8);
+     -webkit-transition-duration: 0.5s;
+     -moz-transition-duration: 0.5s;
+     -o-transition-duration: 0.5s;
+ }
+
+/*--- Quote --*/
+
+.quote {
+	background-color: #223047 !important;
+	color: white !important;
+
+}
+
+.quote p{
+	background-color: #223047 !important;
+	color: white !important;
+
+}
+
+
+/*--- Footer --*/
+
+.footer {
+	background-color: #223047 !important;
+	color: white !important;
+
+}
+
+
+/*============ BOOTSTRAP BREAK POINTS:
+
+Extra small (xs) devices (portrait phones, less than 576px)
+No media query since this is the default in Bootstrap
+
+Small (sm) devices (landscape phones, 576px and up)
+@media (min-width: 576px) { ... }
+
+Medium (md) devices (tablets, 768px and up)
+@media (min-width: 768px) { ... }
+
+Large (lg) devices (desktops, 992px and up)
+@media (min-width: 992px) { ... }
+
+Extra (xl) large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) { ... }
+
+=============*/
